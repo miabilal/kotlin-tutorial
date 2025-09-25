@@ -3,12 +3,17 @@
 
 fun main(){
     //objectss
-    var ract: Shape =Rectangle()
-    ract.Draw()
+//    var ract: Shape =Rectangle()
+//    ract.Draw()
+//
+//    var cricle: Shape =Circle()
+//    cricle.Draw()
 
-    var cricle: Shape =Circle()
-    cricle.Draw()
-
+    // you can also create in array as the following example
+    var array= arrayOf(Rectangle(),Circle(),Square())
+    for (Shape in array){
+        Shape.Draw()
+    }
 
 }
 
